@@ -35,10 +35,22 @@ img{
     margin-right: 90px;
 }
 .things-right {
+    display: flex;
     margin-left: 100px;
-    align-items: center;
-    justify-content: center;
-   
+    position: relative;
+    width: 100px;
+    justify-content: flex-end;   
+}
+.things-right span{
+    position: absolute;
+    top: -11px;
+    left: 54px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2.25px 6.75px;
+    font-size: 15px;
 }
 .things-right i{    
     
@@ -49,6 +61,7 @@ img{
     margin-right: 100px;
     align-items: center;
     justify-content: center;
+    margin-left: 50px;
 }
 .things-left i{
 
@@ -82,3 +95,49 @@ img{
       font-size: 20px;
       width: 500px;
 }
+.containerdark{
+    height: 90px;
+    display: flex;
+    justify-content: space-between;    
+    flex-direction: row;
+    align-items: center;
+    background-color:#151D20;  
+    width: 1540px;  
+    margin-top: 150px;
+}
+
+.down-itemsdark{
+    display: flex;
+    border-top: 0.5px solid gray;
+    justify-content: space-between;
+    width: 1540px;
+    height: 50px;
+    background-color: #151D20;  
+    align-items: center; 
+
+}
+.things-rightdark{
+    margin-left: 90px;
+    margin-right: 20px;
+}
+.things-rightdark i{    
+    
+    font-size: 22px;
+    margin-left: 17px;
+    color: white;
+}
+.downs-rightdark input{
+    font-size: 20px;
+    width: 500px;
+    background-color: #151D20;
+    border: 1px solid white;
+    margin-right: 50px;
+}
+.downs-leftdark span{
+    justify-content:space-between;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 110px;
+    margin-left: 65px;   
+}
+
